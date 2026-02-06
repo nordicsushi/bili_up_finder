@@ -32,7 +32,7 @@ The generated report will be saved in the `reports` directory.
 ## Project Workflow
 
 ```mermaid
-flowchart LR
+flowchart TD
   A[Define target audience to follow<br/>e.g., Travel Vlog + desired number of creators] --> B[AI expands search keywords]
   B --> C((Search))
   C --> D[Videos]
